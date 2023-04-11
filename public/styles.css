@@ -1,0 +1,25 @@
+body {
+    background-color: #1F8CB1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+h1 {
+    color: #000000;
+}
+
+.headlineAndImage{
+
+}
+
+
+.welcome {
+color: #000000;
+text-align: center;
+
+}
+
+.david-bowie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
