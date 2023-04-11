@@ -1,25 +1,125 @@
-body {
-    background-color: #1F8CB1;
+
+
+.body-gallery {
+    background: rgb(85,61,205);
+background: linear-gradient(90deg, rgba(85,61,205,1) 0%, rgba(108,9,121,0.3394607843137255) 35%, rgba(136,43,198,0.2190126050420168) 100%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.body-about {
+    background-color: #4A1A2F;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
-h1 {
-    color: #000000;
+.body-home {
+    background-color: #4A1A2F;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.headlineAndImage{
-
-}
 
 
 .welcome {
 color: #000000;
 text-align: center;
+font-size: 60px;
 
 }
 
+.albums-title {
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+
+}
+
+.allImages {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.david-bowie-2{
+    display: flex;
+
+}
 .david-bowie {
     display: block;
     margin-left: auto;
-    margin-right: auto;}
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: right;
+    flex-direction: column;
+}
+
+.david-bowie-first {
+border-radius: 20%;
+}
+
+.lets-dance {
+    border-radius: 20%;
+}
+.the-man-who-sold-the-world {
+    border-radius: 20%;
+}
+
+.footer-gallery {
+display: flex;
+justify-content: space-evenly;
+margin-top: 40px;
+
+}
+
+.go-to-about {
+    font-size: 30px;
+    color: #000000;
+}
+
+
+.go-to-home {
+    font-size: 30px;
+    color: #000000;
+}
+
+.go-to-photo-gallery {
+    font-size: 30px;
+    color: #000000;
+}
+
+.footer-home {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    }
+
+    .david-bowie-about {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+    }
+
+
+    .footer-about {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 60px;
+        }
+        .paragraph {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-size: 30px;
+            text-align: center;
+            color: #000000;
+        }
+    
+
+        .about-link {
+            color: #FFFFFF;
+        }
